@@ -1,0 +1,24 @@
+print("Simple Calculator \n")
+print("1. Addition \n")
+print("2. Subtraction \n")
+print("3. Multiplication \n")
+print("4. Division \n")
+print("5. Exit \n")
+case_number = int(input("Enter your choice: "))
+if (case_number in [1,2,3,4,5]):
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+    if case_number == 1:
+        print(num1 + num2)
+    elif case_number == 2:
+        print(num1 - num2)
+    elif case_number == 3:
+        print(num1 * num2)
+    elif case_number == 4:
+        print(num1 / num2)
+    elif case_number == 5:
+        print("Exit")
+else:
+    print("Invalid Input")
+
+print("Thank you")
